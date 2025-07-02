@@ -224,18 +224,16 @@
       }
 
       .menu-toggle {
-        display: block;
-      }
-
-      nav {
-        display: none;
-        width: 100%;
-        flex-direction: column;
-        gap: 1rem;
-        margin-top: 1rem;
-        padding-top: 1rem;
-        border-top: 1px solid rgba(255,255,255,0.2);
-      }
+  display: none !important;
+}
+nav {
+  display: flex !important;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
 
       nav.active {
         display: flex;
